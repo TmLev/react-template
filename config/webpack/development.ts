@@ -6,13 +6,13 @@ import { merge } from "webpack-merge";
 
 import dotenv from "dotenv";
 
-import { default as common, WebpackEnv } from "./common";
+import common, { WebpackEnv } from "./common";
 
 ////////////////////////////////////////////////////////////////////////////////
 
 export default (
   webpackEnv: WebpackEnv
-): Configuration & WebpackDevServer.Configuration => {
+): Configuration & { devServer?: WebpackDevServer.Configuration } => {
   const baseDir = path.resolve(__dirname + "/../..");
 
   const envPath = path.resolve(baseDir, webpackEnv.ENV_PATH);

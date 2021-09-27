@@ -5,7 +5,7 @@ import { merge } from "webpack-merge";
 
 import dotenv from "dotenv";
 
-import { default as common, WebpackEnv } from "./common";
+import common, { WebpackEnv } from "./common";
 
 ////////////////////////////////////////////////////////////////////////////////
 
