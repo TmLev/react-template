@@ -28,6 +28,12 @@ Ensure that type system works (no files will be generated):
 yarn type
 ```
 
+## Test with Jest
+
+```shell
+yarn test
+```
+
 ## Lint with ESLint
 
 ```shell

@@ -10,6 +10,9 @@ node_modules
 # Build output
 build
 
+# Test coverage output
+coverage
+
 # ------------------------------------------------------------------------------
 # Global: files
 

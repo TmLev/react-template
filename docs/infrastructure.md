@@ -1,11 +1,5 @@
 # Infrastructure
 
-## TypeScript
-
-Main programming language.
-
-Config: [`/config/tsconfig.json`](/config/tsconfig.json).
-
 ## Webpack
 
 Bundler.
@@ -17,6 +11,18 @@ Configs: [`/config/webpack/...`](/config/webpack/).
 Transpiler.
 
 Config: [`/config/babel.json`](/config/babel.json).
+
+## TypeScript
+
+Main programming language.
+
+Config: [`/config/tsconfig.json`](/config/tsconfig.json).
+
+## Jest
+
+Testing framework.
+
+Config: [`/config/jest.ts`](/config/jest.ts).
 
 ## ESLint
 
