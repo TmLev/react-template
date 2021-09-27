@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+set -e -x
+
+echo "Starting pre-commit hook (.husky/pre-commit)"
+
+yarn type && \
+yarn lint && \
+yarn prettier --check

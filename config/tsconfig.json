@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    ////////////////////////////////////////////////////////////////////////////
+    // Build settings.
+
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": false,
+    "target": "ESNext",
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Module (import/export) settings.
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "../",
+    "paths": {
+      "@/config/*": ["config/*"],
+      "@/public/*": ["public/*"],
+      "@/*": ["src/*"]
+    },
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Code settings.
+
+    "strict": true,
+    "allowJs": false,
+
+    "noFallthroughCasesInSwitch": true,
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Style settings.
+
+    "forceConsistentCasingInFileNames": true,
+
+    ////////////////////////////////////////////////////////////////////////////
+    // Unsorted.
+
+    "skipLibCheck": true
+  },
+
+  "include": ["../src/**/*", "../config/**/*"],
+  "exclude": ["../node_modules"]
+}

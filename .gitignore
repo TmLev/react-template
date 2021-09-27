@@ -1,0 +1,20 @@
+# ------------------------------------------------------------------------------
+# Global: directories
+
+# JetBrains IDEs
+.idea
+
+# Node packages
+node_modules
+
+# Build output
+build
+
+# ------------------------------------------------------------------------------
+# Global: files
+
+# Mac (Finder) specific file
+.DS_Store
+
+# Ignore root-level `tsconfig.json` used for VS Code intergration
+/tsconfig.json
