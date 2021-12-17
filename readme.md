@@ -8,40 +8,13 @@ Prerequisites:
   yarn install
   ```
 
-## Start development server
+## Commands
 
 ```shell
-yarn serve-dev
-```
-
-## Build for production
-
-```shell
-yarn build-prod
-```
-
-## Compile with TypeScript
-
-Ensure that type system works (no files will be generated):
-
-```shell
-yarn type
-```
-
-## Test with Jest
-
-```shell
-yarn test
-```
-
-## Lint with ESLint
-
-```shell
-yarn lint
-```
-
-## Format with Prettier
-
-```shell
-yarn format
+yarn serve-dev   # Start development server
+yarn build-prod  # Build for production
+yarn type        # Ensure that type system works via TypeScript (no files will be generated)
+yarn test        # Test with Jest
+yarn lint        # Lint with ESLint
+yarn format      # Format with Prettier
 ```
