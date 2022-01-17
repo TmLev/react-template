@@ -13,7 +13,7 @@ Set of tools:
 * Prettier formatter
 * Husky pre-commit hooks
 
-All tools configurations are located in [`configs`](/configs) directory.
+All tools configurations are located in [`config`](/config) directory.
 
 Set of libraries:
 
