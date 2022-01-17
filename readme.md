@@ -8,6 +8,7 @@ Set of tools:
 
 * TypeScript as default language
 * Webpack bundler
+* Babel transpiler
 * Jest testing framework
 * ESLint linter
 * Prettier formatter
