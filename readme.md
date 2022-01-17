@@ -11,6 +11,7 @@ Set of tools:
 * Jest testing framework
 * ESLint linter
 * Prettier formatter
+* Husky pre-commit hooks
 
 All tools configurations are located in [`configs`](/configs) directory.
 
